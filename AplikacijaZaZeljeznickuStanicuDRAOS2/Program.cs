@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Globalization;
 using System.Windows.Forms;
+using System.Resources;
+
+[assembly: NeutralResourcesLanguageAttribute("en-US")]
 
 namespace AplikacijaZaZeljeznickuStanicuDRAOS2
-{
+{    
     static class Program
     {
         /// <summary>
@@ -16,7 +20,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new StartForm());
         }
     }
 }

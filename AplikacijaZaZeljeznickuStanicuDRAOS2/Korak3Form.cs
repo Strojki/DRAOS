@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 {
-    public partial class Form3 : Form
+    public partial class Korak3Form : Form
     {
-        public Form3()
+        public Korak3Form()
         {
             InitializeComponent();
         }

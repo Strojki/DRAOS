@@ -1,6 +1,6 @@
 ﻿namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 {
-    partial class Form3
+    partial class Korak3Form
     {
         /// <summary>
         /// Required designer variable.
