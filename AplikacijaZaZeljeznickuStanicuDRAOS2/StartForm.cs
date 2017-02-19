@@ -42,6 +42,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void Form1_Load(object sender, EventArgs e)
         {
             nextForm = new Korak2Form(ref karta,ref rm);
+            labelM.Text = "Sarajevo " + DateTime.Now.ToString();
             //this.reportViewer1.RefreshReport();
         }
 
@@ -82,6 +83,11 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         {
             karta.reset();
             nextForm.ShowDialog();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labelM.Text = "Sarajevo " + DateTime.Now.ToString();
         }
     }
 }

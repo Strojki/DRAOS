@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -44,6 +45,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.labelM = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -230,11 +233,30 @@
             this.button7.Text = "Korak 4";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // labelM
+            // 
+            this.labelM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelM.AutoSize = true;
+            this.labelM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.labelM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.labelM.Location = new System.Drawing.Point(616, 21);
+            this.labelM.Name = "labelM";
+            this.labelM.Size = new System.Drawing.Size(377, 31);
+            this.labelM.TabIndex = 20;
+            this.labelM.Text = "Sarajevo 99/99/9999 99:99:99";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Korak2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 429);
+            this.Controls.Add(this.labelM);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -252,6 +274,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -273,5 +296,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label labelM;
+        private System.Windows.Forms.Timer timer1;
     }
 }
