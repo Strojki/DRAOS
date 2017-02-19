@@ -62,12 +62,11 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
-            {
-                if (Application.OpenForms[i].Name != "Start")
-                    Application.OpenForms[i].Close();
-            }
+            TicketForm a = new TicketForm();
+            a.Show();
         }
+
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -76,7 +75,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            TicketForm a = new TicketForm();
+            a.Show();
         }
     }
 }

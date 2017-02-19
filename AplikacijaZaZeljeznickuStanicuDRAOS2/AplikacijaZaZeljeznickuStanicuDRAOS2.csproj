@@ -81,6 +81,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>lang.tr.resx</DependentUpon>
     </Compile>
+    <Compile Include="TicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketForm.Designer.cs">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TTTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTTForm.Designer.cs">
+      <DependentUpon>TTTForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Korak4Form.resx">
       <DependentUpon>Korak4Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +132,9 @@
     <EmbeddedResource Include="lang.tr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>lang.tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketForm.resx">
+      <DependentUpon>TicketForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>
@@ -144,6 +159,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TTTForm.resx">
+      <DependentUpon>TTTForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Karta.datasource" />
     <None Include="Properties\Settings.settings">
@@ -164,6 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway.gif" />
+    <None Include="Resources\How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway %281%29.gif" />
     <None Include="Resources\novac.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

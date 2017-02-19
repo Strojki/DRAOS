@@ -89,5 +89,10 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         {
             labelM.Text = "Sarajevo " + DateTime.Now.ToString();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
