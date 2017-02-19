@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="helpSadrzajKorak1" xml:space="preserve">
+    <value>At the form named step 1 you can see trains scedules</value>
+  </data>
+  <data name="helpSadrzajKorak2" xml:space="preserve">
+    <value>?helpSadrzajKorak2</value>
+  </data>
   <data name="TEST" xml:space="preserve">
     <value>?testdefault</value>
   </data>

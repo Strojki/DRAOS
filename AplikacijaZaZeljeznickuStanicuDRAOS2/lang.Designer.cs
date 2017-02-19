@@ -61,6 +61,24 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to At the form named step 1 you can see trains scedules.
+        /// </summary>
+        public static string helpSadrzajKorak1 {
+            get {
+                return ResourceManager.GetString("helpSadrzajKorak1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ?helpSadrzajKorak2.
+        /// </summary>
+        public static string helpSadrzajKorak2 {
+            get {
+                return ResourceManager.GetString("helpSadrzajKorak2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ?testdefault.
         /// </summary>
         public static string TEST {
