@@ -121,6 +121,63 @@
     <value>Na formi korak 1 mozete vidjeti redove voznje</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>?test DE</value>
+    <value>?test Prikaz dolazaka i odlazaka u naredna 2h</value>
+  </data>
+  <data name="BrojPutnika" xml:space="preserve">
+    <value>Broj putnika</value>
+  </data>
+  <data name="Dolazak" xml:space="preserve">
+    <value>Dolazak</value>
+  </data>
+  <data name="Engleski" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="groupUnosDIV" xml:space="preserve">
+    <value>Unos datuma i vremena putovanja</value>
+  </data>
+  <data name="groupUnosPodataka" xml:space="preserve">
+    <value>Unos podataka</value>
+  </data>
+  <data name="helpSadrzajKorak2" xml:space="preserve">
+    <value>Na formi korak 2 mozete unijeti podatke o zeljenoj destinaciji</value>
+  </data>
+  <data name="helpSadrzajKorak3" xml:space="preserve">
+    <value>Na formi korak 3 mozete unijeti vrijeme, datum i klasu kojom zelite putovati</value>
+  </data>
+  <data name="helpSadrzajKorak4" xml:space="preserve">
+    <value>Na formi korak 4 je prikazan nacin placanja karte</value>
+  </data>
+  <data name="helpSadrzajKupiKartu" xml:space="preserve">
+    <value>Kliknite na dugme Kupi kartu da  predete na sljedeci korak</value>
+  </data>
+  <data name="Klasa" xml:space="preserve">
+    <value>Klasa</value>
+  </data>
+  <data name="KupiKartu" xml:space="preserve">
+    <value>Kupi kartu</value>
+  </data>
+  <data name="Naprijed" xml:space="preserve">
+    <value>Naprijed</value>
+  </data>
+  <data name="Njemacki" xml:space="preserve">
+    <value>Njemacki</value>
+  </data>
+  <data name="PolazakIz" xml:space="preserve">
+    <value>Polazak Iz</value>
+  </data>
+  <data name="Ponisti" xml:space="preserve">
+    <value>Ponisti</value>
+  </data>
+  <data name="Turski" xml:space="preserve">
+    <value>Turski</value>
+  </data>
+  <data name="VrijemeDolaska" xml:space="preserve">
+    <value>Vrijeme dolaska</value>
+  </data>
+  <data name="VrijemePolaska" xml:space="preserve">
+    <value>Vrijeme polaska</value>
+  </data>
+  <data name="VrstaKarte" xml:space="preserve">
+    <value>Vrsta Karte</value>
   </data>
 </root>
