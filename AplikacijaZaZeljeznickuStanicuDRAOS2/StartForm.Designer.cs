@@ -119,6 +119,7 @@
             resources.ApplyResources(this.button9, "button9");
             this.button9.Name = "button9";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // labelM
             // 

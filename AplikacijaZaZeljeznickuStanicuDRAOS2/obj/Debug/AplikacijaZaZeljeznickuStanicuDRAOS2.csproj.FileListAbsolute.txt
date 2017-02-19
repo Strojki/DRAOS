@@ -8,3 +8,31 @@ c:\users\edin\documents\visual studio 2013\Projects\AplikacijaZaZeljeznickuStani
 c:\users\edin\documents\visual studio 2013\Projects\AplikacijaZaZeljeznickuStanicuDRAOS2\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.pdb
 c:\users\edin\documents\visual studio 2013\Projects\AplikacijaZaZeljeznickuStanicuDRAOS2\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.exe
 c:\users\edin\documents\visual studio 2013\Projects\AplikacijaZaZeljeznickuStanicuDRAOS2\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.pdb
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.exe.config
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.exe
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.pdb
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\ba\AplikacijaZaZeljeznickuStanicuDRAOS2.resources.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\de\AplikacijaZaZeljeznickuStanicuDRAOS2.resources.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\tr\AplikacijaZaZeljeznickuStanicuDRAOS2.resources.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\EntityFramework.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\EntityFramework.xml
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.csprojResolveAssemblyReference.cache
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.Korak4Form.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.StartForm.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.Korak2Form.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.Korak3Form.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.lang.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.lang.ba.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.lang.de.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.lang.tr.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.csproj.GenerateResource.Cache
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\ba\AplikacijaZaZeljeznickuStanicuDRAOS2.resources.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\de\AplikacijaZaZeljeznickuStanicuDRAOS2.resources.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\tr\AplikacijaZaZeljeznickuStanicuDRAOS2.resources.dll
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.exe
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.pdb
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.TicketForm.resources
+C:\Users\WorkIt\Documents\GitHub\DRAOS\AplikacijaZaZeljeznickuStanicuDRAOS2\obj\Debug\AplikacijaZaZeljeznickuStanicuDRAOS2.TTTForm.resources

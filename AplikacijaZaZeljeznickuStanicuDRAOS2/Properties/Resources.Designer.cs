@@ -69,5 +69,15 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap karta_isprintana {
+            get {
+                object obj = ResourceManager.GetObject("karta_isprintana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

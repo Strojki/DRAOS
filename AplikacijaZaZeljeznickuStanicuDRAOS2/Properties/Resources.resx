@@ -121,4 +121,7 @@
   <data name="How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\how_to_buy_a_ticket_on_the_munich_underground_s_bahn_metro_subway.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="karta_isprintana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
