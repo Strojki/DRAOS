@@ -51,6 +51,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
             adjustCulture();
             bindings();
+
+            //consts.Forme.Push(this);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -81,6 +83,11 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void kartaBindingSource_CurrentChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Korak2Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //consts.Forme.Pop();
         }
     }
 }

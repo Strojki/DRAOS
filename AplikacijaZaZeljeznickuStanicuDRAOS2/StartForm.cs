@@ -36,6 +36,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             BindingSource bs = new BindingSource();
             bs.DataSource = consts.RedVoznje;
             dataGridView1.DataSource = bs;
+            this.Name = "Start";
         }
 
         private void Form1_Load(object sender, EventArgs e)

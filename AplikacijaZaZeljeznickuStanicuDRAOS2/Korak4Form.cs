@@ -57,5 +57,14 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             richTextBox1.AppendText("\nyooo");
             richTextBox1.Rtf = @"{\rtf1\pc \b 02/11/2010 - 05:15 PM - Adam:\b0 Another test notes added on 2nd November \par \b 02/11/2010 - 05:14 PM - Z_kas:\b0 Test Notes. STAGE CHANGED TO: N Enq - Send Quote\par \b 02/11/2010 - 05:12 PM - user32:\b0 Another test notes added on 2nd November";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
+            {
+                if (Application.OpenForms[i].Name != "Start")
+                    Application.OpenForms[i].Close();
+            }
+        }
     }
 }

@@ -45,5 +45,10 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             Korak4Form f = new Korak4Form(ref karta, ref rm);
             f.ShowDialog();
         }
+
+        private void Korak3Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

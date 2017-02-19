@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 {
@@ -130,5 +131,19 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
                 return _red;
             }
         }
+
+        //static Stack<Form> _f;
+        //public static Stack<Form> Forme
+        //{
+        //    get
+        //    {
+        //        if(_f == null)
+        //        {
+        //            _f = new Stack<Form>();
+        //        }
+        //        return _f;
+        //    }
+        //}
+           
     }
 }
