@@ -3,7 +3,7 @@
 ################################################################################
 
 /AplikacijaZaZeljeznickuStanicuDRAOS2.v12.suo
-/AplikacijaZaZeljeznickuStanicuDRAOS2/bin/
-/AplikacijaZaZeljeznickuStanicuDRAOS2/debug/
-/.vs/
-/packages/
+/AplikacijaZaZeljeznickuStanicuDRAOS2/bin/*
+/AplikacijaZaZeljeznickuStanicuDRAOS2/debug/*
+/.vs/*
+/packages/*
