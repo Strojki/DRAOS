@@ -23,6 +23,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             rm = _rm;
             adjustCulture();
             bindings();
+            labelM.Text = "Sarajevo " + DateTime.Now.ToString();
         }
 
         private void bindings()
@@ -49,6 +50,11 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void Korak3Form_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labelM.Text = "Sarajevo " + DateTime.Now.ToString();
         }
     }
 }

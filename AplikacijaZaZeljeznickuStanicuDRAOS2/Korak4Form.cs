@@ -26,10 +26,12 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
             adjustCulture();
             bindings();
+            labelM.Text = "Sarajevo " + DateTime.Now.ToString();
         }
 
         private void adjustCulture()
         {
+            button1.Text = "Plati kartu";
             //throw new NotImplementedException();
         }
 
@@ -65,6 +67,16 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
                 if (Application.OpenForms[i].Name != "Start")
                     Application.OpenForms[i].Close();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labelM.Text = "Sarajevo " + DateTime.Now.ToString();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

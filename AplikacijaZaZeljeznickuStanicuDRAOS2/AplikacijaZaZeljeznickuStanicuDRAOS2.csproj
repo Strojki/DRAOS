@@ -66,6 +66,11 @@
     <Compile Include="Korak4Form.Designer.cs">
       <DependentUpon>Korak4Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="lang.ba.Designer.cs">
+      <DependentUpon>lang.ba.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="lang.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -103,6 +108,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Korak4Form.resx">
       <DependentUpon>Korak4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang.ba.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>lang.ba.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="lang.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
