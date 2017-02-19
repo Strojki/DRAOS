@@ -16,6 +16,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         Korak3Form sljedeci;
         Karta karta;
         ResourceManager rm;
+        consts _const;
 
         private void adjustCulture()
         {
@@ -24,17 +25,30 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void bindings()
         {
-            textBoxIme.DataBindings.Add("Text", karta, "Ime");
-            textBoxPrezime.DataBindings.Add("Text", karta, "Prezime");
+            //textBoxIme.DataBindings.Add("Text", karta, "Ime");
+            //textBoxPrezime.DataBindings.Add("Text", karta, "Prezime");
+            //karta.PolazakIz
+            comboBoxPolazakIz.DataBindings.Add("Text", karta, "PolazakIz");
+            //karta.Dolazak;
+            comboBoxDolazak.DataBindings.Add("Text", karta, "Dolazak");
+            //karta.VrstaKarte;
+            comboBoxVrstaKarte.DataBindings.Add("Text", karta, "VrstaKarte");
+            //karta.BrojPutnika;
+            comboBox1.DataBindings.Add("Text", karta, "BrojPutnika");
         }
 
         public Korak2Form(ref Karta _karta,ref ResourceManager _rm)
         {
             InitializeComponent();
-            sljedeci = new Korak3Form();
+            sljedeci = new Korak3Form(ref _karta,ref _rm);
 
             karta = _karta;
             rm = _rm;
+            //_const = new consts();
+            comboBoxPolazakIz.Items.AddRange(consts.Mjesta.Cast<Object>().ToArray());
+            comboBoxDolazak.Items.AddRange(consts.Mjesta.Cast<Object>().ToArray());
+            comboBoxVrstaKarte.Items.AddRange(consts.Vrsta.Cast<Object>().ToArray());
+
             adjustCulture();
             bindings();
         }
@@ -62,6 +76,11 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void button3_Click(object sender, EventArgs e)
         {
             MessageBox.Show(karta.ToString());
+        }
+
+        private void kartaBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

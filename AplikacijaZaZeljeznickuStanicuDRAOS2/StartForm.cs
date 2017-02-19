@@ -29,10 +29,13 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             culture = CultureInfo.CurrentCulture;
             rm = new ResourceManager("AplikacijaZaZeljeznickuStanicuDRAOS2.lang", typeof(StartForm).Assembly);
             karta = new Karta();
-            karta.Ime = "Ime";
-
+            //karta.Ime = "Ime";
+            //richTextBox1.Rtf = @"";
             InitializeComponent();
             adjustCulture();
+            BindingSource bs = new BindingSource();
+            bs.DataSource = consts.RedVoznje;
+            dataGridView1.DataSource = bs;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -43,13 +46,15 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            karta = new Karta();
+            karta.reset();
             nextForm.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(karta.ToString());
+            //MessageBox.Show(karta.ToString());
+            Korak4Form f = new Korak4Form(ref karta,ref rm);
+            f.ShowDialog();
         }
 
         private void setLang(string lang)

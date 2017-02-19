@@ -9,67 +9,52 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 {
     public class Karta:INotifyPropertyChanged
     {
-        String ime, prezime;
-
-        private String _ime;
-
-        public String Ime
+        public Karta()
         {
-            get { return _ime; }
-            set {
-                _ime = value;
-                InvokePropertyChanged(new PropertyChangedEventArgs("Ime"));
-            }
+            BrojPutnika = "1";
+            Klasa = consts.Klase[0];
         }
-
-        private String _prezime;
-
-        public String Prezime
-        {
-            get { return _prezime; }
-            set {
-                _prezime = value;
-                InvokePropertyChanged(new PropertyChangedEventArgs("Prezime"));
-            }
-        }
-
-
-        public override String ToString()
-        {
-            return ime + " " + prezime;
-        }
+        //String ime, prezime;
 
         private String _polazakIz;
 
         public String PolazakIz
         {
             get { return _polazakIz; }
-            set { _polazakIz = value; }
+            set { _polazakIz = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("PolazakIz"));
+            }
         }
 
 
-        private DateTime _datumPolaska;
+        private DateTime? _datumPolaska;
 
-        public DateTime DatumPolaska
+        public DateTime? DatumPolaska
         {
             get { return _datumPolaska; }
-            set { _datumPolaska = value; }
+            set { _datumPolaska = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("DatumPolaska"));
+            }
         }
 
-        private DateTime _vrijemePolaska;
+        private DateTime? _vrijemePolaska;
 
-        public DateTime VrijemePolaska
+        public DateTime? VrijemePolaska
         {
             get { return _vrijemePolaska; }
-            set { _vrijemePolaska = value; }
+            set { _vrijemePolaska = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("VrijemePolaska"));
+            }
         }
 
-        private DateTime _vrijemeDolaska;
+        private DateTime? _vrijemeDolaska;
 
-        public DateTime VrijemeDolaska
+        public DateTime? VrijemeDolaska
         {
             get { return _vrijemeDolaska; }
-            set { _vrijemeDolaska = value; }
+            set { _vrijemeDolaska = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("VrijemeDolaska"));
+            }
         }
 
         private String _klasa;
@@ -77,7 +62,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         public String Klasa
         {
             get { return _klasa; }
-            set { _klasa = value; }
+            set { _klasa = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("Klasa"));
+            }
         }
 
         private String _dolazak;
@@ -85,15 +72,19 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         public String Dolazak
         {
             get { return _dolazak; }
-            set { _dolazak = value; }
+            set { _dolazak = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("Dolazak"));
+            }
         }
 
-        private int _brojPutnik;
+        private String _brojPutnik;
 
-        public int BrojPutnika
+        public String BrojPutnika
         {
             get { return _brojPutnik; }
-            set { _brojPutnik = value; }
+            set { _brojPutnik = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("BrojPutnika"));
+            }
         }
 
         private String _vrstaKarte;
@@ -101,10 +92,15 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         public String VrstaKarte
         {
             get { return _vrstaKarte; }
-            set { _vrstaKarte = value; }
+            set { _vrstaKarte = value;
+                InvokePropertyChanged(new PropertyChangedEventArgs("VrstaKarte"));
+            }
         }
 
-
+        public void reset()
+        {
+            this._brojPutnik = null;
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
