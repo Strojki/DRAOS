@@ -71,6 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>lang.de.resx</DependentUpon>
     </Compile>
+    <Compile Include="lang.tr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lang.tr.resx</DependentUpon>
+    </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,7 +108,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>lang.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="lang.tr.resx" />
+    <EmbeddedResource Include="lang.tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>lang.tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +133,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Karta.datasource" />
@@ -143,6 +152,10 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway.gif" />
+    <None Include="Resources\novac.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

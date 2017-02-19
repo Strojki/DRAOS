@@ -47,8 +47,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            karta.reset();
-            nextForm.ShowDialog();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -79,5 +78,10 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             setLang("tr");
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            karta.reset();
+            nextForm.ShowDialog();
+        }
     }
 }

@@ -54,8 +54,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.AppendText("\nyooo");
-            richTextBox1.Rtf = @"{\rtf1\pc \b 02/11/2010 - 05:15 PM - Adam:\b0 Another test notes added on 2nd November \par \b 02/11/2010 - 05:14 PM - Z_kas:\b0 Test Notes. STAGE CHANGED TO: N Enq - Send Quote\par \b 02/11/2010 - 05:12 PM - user32:\b0 Another test notes added on 2nd November";
+            //richTextBox1.AppendText("\nyooo");
+            //richTextBox1.Rtf = @"{\rtf1\pc \b 02/11/2010 - 05:15 PM - Adam:\b0 Another test notes added on 2nd November \par \b 02/11/2010 - 05:14 PM - Z_kas:\b0 Test Notes. STAGE CHANGED TO: N Enq - Send Quote\par \b 02/11/2010 - 05:12 PM - user32:\b0 Another test notes added on 2nd November";
         }
 
         private void button2_Click(object sender, EventArgs e)
