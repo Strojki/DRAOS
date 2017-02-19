@@ -117,7 +117,67 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BrojPutnika" xml:space="preserve">
+    <value>yolcu sayısı</value>
+  </data>
+  <data name="Dolazak" xml:space="preserve">
+    <value>varış</value>
+  </data>
+  <data name="Engleski" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="groupUnosDIV" xml:space="preserve">
+    <value>Tarih ve zaman yolculuğu girme</value>
+  </data>
+  <data name="groupUnosPodataka" xml:space="preserve">
+    <value>veri girişi</value>
+  </data>
+  <data name="helpSadrzajKorak1" xml:space="preserve">
+    <value>Aşama şeklinde 1 çizelgeleri görebilir</value>
+  </data>
+  <data name="helpSadrzajKorak2" xml:space="preserve">
+    <value>2. adımda şeklinde, istediğiniz hedefe verileri girebilirsiniz</value>
+  </data>
+  <data name="helpSadrzajKorak3" xml:space="preserve">
+    <value>3. adımda şeklinde, seyahat etmek istediğiniz ile saat, tarih ve sınıf girebilirsiniz</value>
+  </data>
+  <data name="helpSadrzajKorak4" xml:space="preserve">
+    <value>Aşama 4 şeklinde ödeme kartlarının yöntemi gösterir</value>
+  </data>
+  <data name="helpSadrzajKupiKartu" xml:space="preserve">
+    <value>Bir sonraki adıma geçmek için satın alın bir bilet tıklayın</value>
+  </data>
+  <data name="Klasa" xml:space="preserve">
+    <value>sınıf</value>
+  </data>
+  <data name="KupiKartu" xml:space="preserve">
+    <value>Bir bilet al</value>
+  </data>
+  <data name="Naprijed" xml:space="preserve">
+    <value>ileri</value>
+  </data>
+  <data name="Njemacki" xml:space="preserve">
+    <value>Alman</value>
+  </data>
+  <data name="PolazakIz" xml:space="preserve">
+    <value>hareketle</value>
+  </data>
+  <data name="Ponisti" xml:space="preserve">
+    <value>iptal</value>
+  </data>
   <data name="TEST" xml:space="preserve">
     <value>?test turski</value>
+  </data>
+  <data name="Turski" xml:space="preserve">
+    <value>Türk</value>
+  </data>
+  <data name="VrijemeDolaska" xml:space="preserve">
+    <value>varış saati</value>
+  </data>
+  <data name="VrijemePolaska" xml:space="preserve">
+    <value>hareket saati</value>
+  </data>
+  <data name="VrstaKarte" xml:space="preserve">
+    <value>Tür Haritalar</value>
   </data>
 </root>

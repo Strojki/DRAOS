@@ -121,9 +121,63 @@
     <value>At the form named step 1 you can see trains scedules</value>
   </data>
   <data name="helpSadrzajKorak2" xml:space="preserve">
-    <value>?helpSadrzajKorak2</value>
+    <value>In the form of step 2, you can enter data on the desired destination</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>?testdefault</value>
+  </data>
+  <data name="BrojPutnika" xml:space="preserve">
+    <value>Number of passengers</value>
+  </data>
+  <data name="Dolazak" xml:space="preserve">
+    <value>Arrival</value>
+  </data>
+  <data name="Engleski" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="groupUnosDIV" xml:space="preserve">
+    <value>Entering the date and time of travel</value>
+  </data>
+  <data name="groupUnosPodataka" xml:space="preserve">
+    <value>Data entry</value>
+  </data>
+  <data name="helpSadrzajKorak3" xml:space="preserve">
+    <value>In the form of step 3, you can enter the time, date and class with which you want to travel</value>
+  </data>
+  <data name="helpSadrzajKorak4" xml:space="preserve">
+    <value>In the form of step 4 shows the method of payment cards</value>
+  </data>
+  <data name="helpSadrzajKupiKartu" xml:space="preserve">
+    <value>Click Buy a ticket to continue to next step</value>
+  </data>
+  <data name="Klasa" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="KupiKartu" xml:space="preserve">
+    <value>Buy a ticket</value>
+  </data>
+  <data name="Naprijed" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Njemacki" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="PolazakIz" xml:space="preserve">
+    <value>Departing from</value>
+  </data>
+  <data name="Ponisti" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Turski" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="VrijemeDolaska" xml:space="preserve">
+    <value>Time of arrival</value>
+  </data>
+  <data name="VrijemePolaska" xml:space="preserve">
+    <value>Time of departure</value>
+  </data>
+  <data name="VrstaKarte" xml:space="preserve">
+    <value>Ticket type</value>
   </data>
 </root>
