@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Korak4Form));
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -87,11 +88,11 @@
             // 
             // button3
             // 
-            //this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.Help_Button_2;
+            this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.helpBtn3;
             this.button3.Location = new System.Drawing.Point(12, 14);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 50);
+            this.button3.Size = new System.Drawing.Size(124, 59);
             this.button3.TabIndex = 9;
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -153,6 +154,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Korak4Form";
             this.Text = "Plati kartu";

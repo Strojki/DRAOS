@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Korak2Form));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,14 +48,14 @@
             this.button7 = new System.Windows.Forms.Button();
             this.labelM = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -63,11 +64,11 @@
             this.groupBox1.Controls.Add(this.comboBoxVrstaKarte);
             this.groupBox1.Controls.Add(this.comboBoxDolazak);
             this.groupBox1.Controls.Add(this.comboBoxPolazakIz);
-            this.groupBox1.Location = new System.Drawing.Point(15, 69);
+            this.groupBox1.Location = new System.Drawing.Point(15, 80);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(1309, 374);
+            this.groupBox1.Size = new System.Drawing.Size(1454, 457);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Unos podataka:";
@@ -82,7 +83,7 @@
             "4",
             "5"});
             this.comboBox1.Location = new System.Drawing.Point(57, 230);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(631, 24);
             this.comboBox1.TabIndex = 11;
@@ -154,7 +155,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(1193, 448);
+            this.button1.Location = new System.Drawing.Point(1338, 555);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 66);
@@ -166,7 +167,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(1057, 448);
+            this.button2.Location = new System.Drawing.Point(1202, 555);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 66);
@@ -177,11 +178,11 @@
             // 
             // button3
             // 
-            //this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.Help_Button_2;
+            this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.helpBtn3;
             this.button3.Location = new System.Drawing.Point(15, 14);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 50);
+            this.button3.Size = new System.Drawing.Size(124, 62);
             this.button3.TabIndex = 4;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -237,7 +238,7 @@
             this.labelM.AutoSize = true;
             this.labelM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.labelM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelM.Location = new System.Drawing.Point(821, 26);
+            this.labelM.Location = new System.Drawing.Point(966, 26);
             this.labelM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelM.Name = "labelM";
             this.labelM.Size = new System.Drawing.Size(472, 39);
@@ -250,11 +251,20 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.railwayStationLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(958, 94);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(255, 258);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // Korak2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1339, 528);
+            this.ClientSize = new System.Drawing.Size(1484, 635);
             this.Controls.Add(this.labelM);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -264,6 +274,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Korak2Form";
             this.Text = "Form2";
@@ -272,6 +283,7 @@
             this.Load += new System.EventHandler(this.Korak2Form_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -297,5 +309,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label labelM;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

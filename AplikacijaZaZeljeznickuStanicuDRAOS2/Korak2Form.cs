@@ -44,7 +44,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
             karta = _karta;
             rm = _rm;
-            //_const = new consts();
+            _const = new consts();
             comboBoxPolazakIz.Items.AddRange(consts.Mjesta.Cast<Object>().ToArray());
             comboBoxDolazak.Items.AddRange(consts.Mjesta.Cast<Object>().ToArray());
             comboBoxVrstaKarte.Items.AddRange(consts.Vrsta.Cast<Object>().ToArray());
