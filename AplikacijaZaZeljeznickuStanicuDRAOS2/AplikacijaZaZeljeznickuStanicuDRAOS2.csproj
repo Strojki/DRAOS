@@ -182,6 +182,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway.gif" />
+    <None Include="Resources\bosnian.png" />
+    <None Include="Resources\Flag_of_Turkey.png" />
+    <None Include="Resources\german.png" />
+    <None Include="Resources\english.png" />
     <None Include="Resources\railway-stationLogo.png" />
     <None Include="Resources\Help Button 2.png" />
     <None Include="Resources\Help Button.png" />
