@@ -77,6 +77,10 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         {
             TicketForm a = new TicketForm();
             a.Show();
+            this.Hide();
+            StartForm b = new StartForm();
+            b.Show();
+
         }
 
         private void button2_Click_1(object sender, EventArgs e)
