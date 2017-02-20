@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\how_to_buy_a_ticket_on_the_munich_underground_s_bahn_metro_subway.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="railwayStationLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\railway-stationLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="railwayStationLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\railway-stationLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="railwayStationxxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\railway-station-xxl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,19 +130,28 @@
   <data name="karta_isprintana" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\how_to_buy_a_ticket_on_the_munich_underground_s_bahn_metro_subway.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="helpBtn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button-Help-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="helpBtn3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Help Button 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="railwayStationLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\railway-stationLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="english" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\english.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="helpbtn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Help Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="railwayStationLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\railway-stationLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Flag_of_Turkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flag_of_Turkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\german.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bosnian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bosnian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
