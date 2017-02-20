@@ -28,6 +28,10 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void bindings()
         {
+            comboBoxKlasa.DataBindings.Add("text", karta, "Klasa");
+            dateTimePicker1.DataBindings.Add("text", karta, "DatumPolaska");
+            comboBoxVrijemePolaska.DataBindings.Add("text", karta, "VrijemePolaska");
+            comboBoxVrijemeDolaska.DataBindings.Add("text", karta, "VrijemeDolaska");
             //throw new NotImplementedException();
         }
 

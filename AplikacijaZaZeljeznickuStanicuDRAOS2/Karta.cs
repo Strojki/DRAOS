@@ -27,9 +27,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         }
 
 
-        private DateTime? _datumPolaska;
+        private String _datumPolaska;
 
-        public DateTime? DatumPolaska
+        public String DatumPolaska
         {
             get { return _datumPolaska; }
             set { _datumPolaska = value;
@@ -37,9 +37,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             }
         }
 
-        private DateTime? _vrijemePolaska;
+        private String _vrijemePolaska;
 
-        public DateTime? VrijemePolaska
+        public String VrijemePolaska
         {
             get { return _vrijemePolaska; }
             set { _vrijemePolaska = value;
@@ -47,9 +47,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             }
         }
 
-        private DateTime? _vrijemeDolaska;
+        private String _vrijemeDolaska;
 
-        public DateTime? VrijemeDolaska
+        public String VrijemeDolaska
         {
             get { return _vrijemeDolaska; }
             set { _vrijemeDolaska = value;
