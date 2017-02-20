@@ -22,7 +22,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
                     "Tuzla",
                     "Zenica",
                     "Bihac",
-                    "Banja Luka","Tuzla",	
+                    "Banja Luka",
+                    "Tuzla",	
                     "Bijeljina",	
                     "Prijedor",
                     "Brčko",	
@@ -171,6 +172,26 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
                 };
                 return _red;
             }
+        }
+
+
+        public static String KartaText(string brOsoba,string klasa, string vaziOd,string vaziDo,string serial,string cijena)
+        {
+            var rez = @"{\rtf1\ansi\deff0 "+
+                    "Zeljeznica Datum"+
+                    @"\line DRAOS Vrijeme"+
+                    @"\line Cjelodnevna karta"+
+                    @"\line Za "+brOsoba+@" osoba Klasa "+klasa+@"\line"+
+                    @"\line Karta vazi od "+vaziOd+" do "+vaziDo+
+                    @"\line narednog dana. Kartu mozete koristiti"+
+                    @"\line za sve zeljeznice u BiH i regiji"+
+                    @"\line Na polje ispod unesite imena putnika"+
+                    @"\line koji putuju sa ovom kartom."+
+                    @"\line \line \line \line"+
+                    @"\line Serial No:"+" Cijena:"+
+                    @"\line "+serial+" "+cijena+
+                    "}";
+                return rez;
         }
 
         //static Stack<Form> _f;
