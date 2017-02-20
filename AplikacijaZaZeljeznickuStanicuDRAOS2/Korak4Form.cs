@@ -78,6 +78,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             TicketForm a = new TicketForm();
             a.Show();
             this.Hide();
+            this.Close();
+            MessageBox.Show("Transaction complete");
             StartForm b = new StartForm();
             b.Show();
 
