@@ -51,7 +51,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void Korak4Form_Load(object sender, EventArgs e)
         {
-
+            //karta
+            richTextBox1.Rtf = consts.KartaText(karta.BrojPutnika, karta.Klasa, "od vremena","do vremena","serial","cijena");//,karta.Klasa,"od vremena","do vremena","serialnbrt","cijena")+"}";
         }
 
         private void button1_Click(object sender, EventArgs e)
