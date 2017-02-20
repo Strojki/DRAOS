@@ -64,11 +64,11 @@
             this.groupBox1.Controls.Add(this.comboBoxVrstaKarte);
             this.groupBox1.Controls.Add(this.comboBoxDolazak);
             this.groupBox1.Controls.Add(this.comboBoxPolazakIz);
-            this.groupBox1.Location = new System.Drawing.Point(15, 80);
+            this.groupBox1.Location = new System.Drawing.Point(15, 129);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(1454, 457);
+            this.groupBox1.Size = new System.Drawing.Size(1383, 505);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Unos podataka:";
@@ -155,7 +155,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(1338, 555);
+            this.button1.Location = new System.Drawing.Point(1267, 709);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 66);
@@ -167,7 +167,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(1202, 555);
+            this.button2.Location = new System.Drawing.Point(1131, 709);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 66);
@@ -238,7 +238,7 @@
             this.labelM.AutoSize = true;
             this.labelM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.labelM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelM.Location = new System.Drawing.Point(966, 26);
+            this.labelM.Location = new System.Drawing.Point(895, 26);
             this.labelM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelM.Name = "labelM";
             this.labelM.Size = new System.Drawing.Size(472, 39);
@@ -254,9 +254,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.railwayStationLogo;
-            this.pictureBox1.Location = new System.Drawing.Point(958, 94);
+            this.pictureBox1.Location = new System.Drawing.Point(887, 74);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(255, 258);
+            this.pictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
@@ -264,7 +265,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1484, 635);
+            this.ClientSize = new System.Drawing.Size(1413, 789);
             this.Controls.Add(this.labelM);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -277,8 +278,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Korak2Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Korak2Form_FormClosing);
             this.Load += new System.EventHandler(this.Korak2Form_Load);
             this.groupBox1.ResumeLayout(false);

@@ -151,7 +151,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
             this.Name = "StartForm";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
