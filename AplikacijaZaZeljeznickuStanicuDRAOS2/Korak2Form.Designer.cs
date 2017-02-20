@@ -63,11 +63,11 @@
             this.groupBox1.Controls.Add(this.comboBoxVrstaKarte);
             this.groupBox1.Controls.Add(this.comboBoxDolazak);
             this.groupBox1.Controls.Add(this.comboBoxPolazakIz);
-            this.groupBox1.Location = new System.Drawing.Point(11, 56);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Location = new System.Drawing.Point(15, 69);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(982, 304);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(1309, 374);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Unos podataka:";
@@ -81,86 +81,83 @@
             "3",
             "4",
             "5"});
-            this.comboBox1.Location = new System.Drawing.Point(43, 187);
+            this.comboBox1.Location = new System.Drawing.Point(57, 230);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(474, 21);
+            this.comboBox1.Size = new System.Drawing.Size(631, 24);
             this.comboBox1.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 208);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(53, 256);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
+            this.label5.Size = new System.Drawing.Size(81, 17);
             this.label5.TabIndex = 10;
             this.label5.Text = "Vrsta karte:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 170);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(53, 209);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(87, 17);
             this.label4.TabIndex = 9;
             this.label4.Text = "Broj putnika:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 131);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(53, 161);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(63, 17);
             this.label3.TabIndex = 8;
             this.label3.Text = "Dolazak:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 91);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(53, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.Size = new System.Drawing.Size(76, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "Polazak Iz:";
             // 
             // comboBoxVrstaKarte
             // 
             this.comboBoxVrstaKarte.FormattingEnabled = true;
-            this.comboBoxVrstaKarte.Location = new System.Drawing.Point(43, 224);
-            this.comboBoxVrstaKarte.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxVrstaKarte.Location = new System.Drawing.Point(57, 276);
+            this.comboBoxVrstaKarte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxVrstaKarte.Name = "comboBoxVrstaKarte";
-            this.comboBoxVrstaKarte.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxVrstaKarte.Size = new System.Drawing.Size(631, 24);
             this.comboBoxVrstaKarte.TabIndex = 4;
             // 
             // comboBoxDolazak
             // 
             this.comboBoxDolazak.FormattingEnabled = true;
-            this.comboBoxDolazak.Location = new System.Drawing.Point(43, 147);
-            this.comboBoxDolazak.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxDolazak.Location = new System.Drawing.Point(57, 181);
+            this.comboBoxDolazak.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxDolazak.Name = "comboBoxDolazak";
-            this.comboBoxDolazak.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxDolazak.Size = new System.Drawing.Size(631, 24);
             this.comboBoxDolazak.TabIndex = 2;
             // 
             // comboBoxPolazakIz
             // 
             this.comboBoxPolazakIz.FormattingEnabled = true;
-            this.comboBoxPolazakIz.Location = new System.Drawing.Point(43, 107);
-            this.comboBoxPolazakIz.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxPolazakIz.Location = new System.Drawing.Point(57, 132);
+            this.comboBoxPolazakIz.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxPolazakIz.Name = "comboBoxPolazakIz";
-            this.comboBoxPolazakIz.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxPolazakIz.Size = new System.Drawing.Size(631, 24);
             this.comboBoxPolazakIz.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(895, 364);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(1193, 448);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 54);
+            this.button1.Size = new System.Drawing.Size(131, 66);
             this.button1.TabIndex = 2;
             this.button1.Text = "Naprijed";
             this.button1.UseVisualStyleBackColor = false;
@@ -169,10 +166,10 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(793, 364);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(1057, 448);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 54);
+            this.button2.Size = new System.Drawing.Size(131, 66);
             this.button2.TabIndex = 3;
             this.button2.Text = "Ponisti";
             this.button2.UseVisualStyleBackColor = true;
@@ -180,44 +177,45 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(11, 11);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            //this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.Help_Button_2;
+            this.button3.Location = new System.Drawing.Point(15, 14);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 41);
+            this.button3.Size = new System.Drawing.Size(124, 50);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Help";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(108, 11);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(175, 14);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(93, 41);
+            this.button4.Size = new System.Drawing.Size(124, 50);
             this.button4.TabIndex = 5;
             this.button4.Text = "Korak 1";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Location = new System.Drawing.Point(205, 11);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Location = new System.Drawing.Point(296, 14);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(93, 41);
+            this.button5.Size = new System.Drawing.Size(124, 50);
             this.button5.TabIndex = 6;
             this.button5.Text = "Korak 2";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
             this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(302, 11);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Location = new System.Drawing.Point(420, 14);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(93, 41);
+            this.button6.Size = new System.Drawing.Size(124, 50);
             this.button6.TabIndex = 7;
             this.button6.Text = "Korak 3";
             this.button6.UseVisualStyleBackColor = true;
@@ -225,10 +223,10 @@
             // button7
             // 
             this.button7.Enabled = false;
-            this.button7.Location = new System.Drawing.Point(399, 11);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
+            this.button7.Location = new System.Drawing.Point(542, 14);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(93, 41);
+            this.button7.Size = new System.Drawing.Size(124, 50);
             this.button7.TabIndex = 8;
             this.button7.Text = "Korak 4";
             this.button7.UseVisualStyleBackColor = true;
@@ -239,9 +237,10 @@
             this.labelM.AutoSize = true;
             this.labelM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.labelM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelM.Location = new System.Drawing.Point(616, 21);
+            this.labelM.Location = new System.Drawing.Point(821, 26);
+            this.labelM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelM.Name = "labelM";
-            this.labelM.Size = new System.Drawing.Size(377, 31);
+            this.labelM.Size = new System.Drawing.Size(472, 39);
             this.labelM.TabIndex = 20;
             this.labelM.Text = "Sarajevo 99/99/9999 99:99:99";
             // 
@@ -253,9 +252,9 @@
             // 
             // Korak2Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 429);
+            this.ClientSize = new System.Drawing.Size(1339, 528);
             this.Controls.Add(this.labelM);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -265,7 +264,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Korak2Form";
             this.Text = "Form2";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

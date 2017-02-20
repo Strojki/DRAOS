@@ -54,7 +54,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void button2_Click(object sender, EventArgs e)
         {
             //MessageBox.Show(karta.ToString());
-            Korak4Form f = new Korak4Form(ref karta,ref rm);
+            Korak4Form f = new Korak4Form(ref karta, ref rm);
             f.ShowDialog();
         }
 
@@ -81,6 +81,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.Hide();
             karta.reset();
             nextForm.ShowDialog();
         }
