@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,21 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 {
     public class consts
     {
-//        private List<String> _mjesta;
+        static CultureInfo culture;
+
+        private static CultureInfo _cul;
+
+        public static CultureInfo Culture
+        {
+            get { return _cul; }
+            set { _cul = value; }
+        }
+
+
+
+        //        private List<String> _mjesta;
+
+
 
         public static List<String> Mjesta
         {

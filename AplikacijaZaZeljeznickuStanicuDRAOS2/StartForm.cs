@@ -18,10 +18,13 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private CultureInfo culture;
         private ResourceManager rm;
         private Karta karta;
+        private String helpText;
 
         private void adjustCulture()
         {
+            culture = consts.Culture;
             groupBox1.Text = rm.GetString("TEST", culture);
+            helpText = rm.GetString("helpSadrzajKorak1", culture);
         }
 
         public StartForm()
@@ -32,16 +35,17 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             //karta.Ime = "Ime";
             //richTextBox1.Rtf = @"";
             InitializeComponent();
-            adjustCulture();
+            setLang("ba");
             BindingSource bs = new BindingSource();
             bs.DataSource = consts.RedVoznje;
             dataGridView1.DataSource = bs;
             this.Name = "Start";
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            nextForm = new Korak2Form(ref karta,ref rm);
+            nextForm = new Korak2Form(ref karta,ref rm,ref culture);
             labelM.Text = "Sarajevo " + DateTime.Now.ToString();
             //this.reportViewer1.RefreshReport();
         }
@@ -54,14 +58,16 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void button2_Click(object sender, EventArgs e)
         {
             //MessageBox.Show(karta.ToString());
-            Korak4Form f = new Korak4Form(ref karta, ref rm);
+            Korak4Form f = new Korak4Form(ref karta, ref rm,ref culture);
             f.ShowDialog();
         }
 
         private void setLang(string lang)
         {
             culture = CultureInfo.CreateSpecificCulture(lang);
-            groupBox1.Text = rm.GetString("TEST", culture);
+            consts.Culture = culture;
+            adjustCulture();
+            //groupBox1.Text = rm.GetString("TEST", culture);
         }
 
         private void setLangEn(object sender, EventArgs e)
@@ -79,6 +85,8 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             setLang("tr");
         }
 
+        
+
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -93,7 +101,12 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button9_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(helpText);
+        }
 
+        private void StartForm_Shown(object sender, EventArgs e)
+        {
+            adjustCulture();
         }
     }
 }

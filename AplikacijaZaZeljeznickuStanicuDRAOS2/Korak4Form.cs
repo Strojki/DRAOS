@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Resources;
 using System.Text;
@@ -15,11 +16,14 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
     {
         Karta karta;
         ResourceManager rm;
-        public Korak4Form(ref Karta _karta, ref ResourceManager _rm)
+        CultureInfo culture;
+        String helpText;
+
+        public Korak4Form(ref Karta _karta, ref ResourceManager _rm, ref CultureInfo _cul)
         {
             karta = _karta;
             rm = _rm;
-
+            culture = _cul;
 
             InitializeComponent();
 
@@ -31,7 +35,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void adjustCulture()
         {
-            button1.Text = "Plati kartu";
+            culture = consts.Culture;
+            helpText = rm.GetString("helpSadrzajKorak4", culture);
+            //button1.Text = "Plati kartu";
             //throw new NotImplementedException();
         }
 
@@ -52,8 +58,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void Korak4Form_Load(object sender, EventArgs e)
         {
             //karta
+            adjustCulture();
             Random rnd = new Random();
-            richTextBox1.Rtf = consts.KartaText(karta.BrojPutnika, karta.Klasa, karta.VrijemePolaska.ToString(),karta.VrijemeDolaska.ToString(),rnd.Next(1111,9999).ToString(),"123 KM");//,karta.Klasa,"od vremena","do vremena","serialnbrt","cijena")+"}";
+            richTextBox1.Rtf = consts.KartaText(karta.BrojPutnika, karta.Klasa, karta.VrijemePolaska,karta.VrijemeDolaska,rnd.Next(1111,9999).ToString(),"123 KM");//,karta.Klasa,"od vremena","do vremena","serialnbrt","cijena")+"}";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -92,8 +99,18 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
             this.Close();
             this.Hide();
-            Korak3Form f = new Korak3Form(ref karta, ref rm);
+            Korak3Form f = new Korak3Form(ref karta, ref rm,ref culture);
             f.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(helpText);
+        }
+
+        private void Korak4Form_Shown(object sender, EventArgs e)
+        {
+            adjustCulture();
         }
     }
 }
