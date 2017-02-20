@@ -57,6 +57,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             sljedeci.ShowDialog();
         }
 
@@ -68,6 +69,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            this.Hide();
+            StartForm f = new StartForm();
+            f.ShowDialog();
         }
 
         private void Korak2Form_Load(object sender, EventArgs e)

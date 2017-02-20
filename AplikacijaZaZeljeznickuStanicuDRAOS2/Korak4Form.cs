@@ -78,5 +78,14 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             TicketForm a = new TicketForm();
             a.Show();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+            this.Close();
+            this.Hide();
+            Korak3Form f = new Korak3Form(ref karta, ref rm);
+            f.ShowDialog();
+        }
     }
 }

@@ -63,6 +63,36 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap helpBtn1 {
+            get {
+                object obj = ResourceManager.GetObject("helpBtn1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helpbtn2 {
+            get {
+                object obj = ResourceManager.GetObject("helpbtn2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helpBtn3 {
+            get {
+                object obj = ResourceManager.GetObject("helpBtn3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway {
             get {
                 object obj = ResourceManager.GetObject("How_to_buy_a_ticket_on_the_Munich_Underground_S_Bahn_Metro_Subway", resourceCulture);
@@ -76,6 +106,36 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2.Properties {
         internal static System.Drawing.Bitmap karta_isprintana {
             get {
                 object obj = ResourceManager.GetObject("karta_isprintana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap railwayStationLogo {
+            get {
+                object obj = ResourceManager.GetObject("railwayStationLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap railwayStationLogo1 {
+            get {
+                object obj = ResourceManager.GetObject("railwayStationLogo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap railwayStationxxl {
+            get {
+                object obj = ResourceManager.GetObject("railwayStationxxl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

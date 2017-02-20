@@ -39,12 +39,17 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            this.Hide();
+            Korak2Form f = new Korak2Form(ref karta, ref rm);
+            f.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Korak4Form f = new Korak4Form(ref karta, ref rm);
+            this.Hide();
             f.ShowDialog();
+            
         }
 
         private void Korak3Form_Load(object sender, EventArgs e)

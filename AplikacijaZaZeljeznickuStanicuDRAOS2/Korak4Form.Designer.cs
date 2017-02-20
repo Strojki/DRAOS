@@ -37,13 +37,14 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelM = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(533, 14);
+            this.button7.Location = new System.Drawing.Point(541, 14);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(124, 50);
@@ -54,7 +55,7 @@
             // button6
             // 
             this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(404, 14);
+            this.button6.Location = new System.Drawing.Point(418, 14);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(124, 50);
@@ -65,7 +66,7 @@
             // button5
             // 
             this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(275, 14);
+            this.button5.Location = new System.Drawing.Point(297, 14);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(124, 50);
@@ -76,7 +77,7 @@
             // button4
             // 
             this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(145, 14);
+            this.button4.Location = new System.Drawing.Point(175, 14);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(124, 50);
@@ -86,12 +87,12 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(16, 14);
+            //this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.Help_Button_2;
+            this.button3.Location = new System.Drawing.Point(12, 14);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(124, 50);
             this.button3.TabIndex = 9;
-            this.button3.Text = "Help";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // timer1
@@ -127,11 +128,24 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.Location = new System.Drawing.Point(1271, 709);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(131, 66);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Ponisti";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // Korak4Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1553, 789);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.labelM);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button7);
@@ -139,7 +153,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Korak4Form";
             this.Text = "Plati kartu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -158,5 +172,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label labelM;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
