@@ -86,6 +86,9 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             else if (comboBoxVrstaKarte.SelectedItem == null)
                 MessageBox.Show("Niste unijeli vrstu karte!", "Upozorenje",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBoxPolazakIz.SelectedItem == comboBoxDolazak.SelectedItem)
+                MessageBox.Show("Mjesto polaska i destinacija ne mogu biti isti!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
             else
             {
                 this.Hide();
