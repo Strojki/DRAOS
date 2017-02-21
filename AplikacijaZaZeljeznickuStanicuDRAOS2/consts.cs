@@ -177,13 +177,27 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             {
                 var _red = new List<Red_Voznje>()
                 {
-                    new Red_Voznje("Zenica","Sarajevo","",""),
-                    new Red_Voznje("Bihac","Sarajevo","",""),
+                    new Red_Voznje("Zenica","Sarajevo","11:45","6:43"),
+                    new Red_Voznje("Bihac","Sarajevo","8:32","15:33"),
                     new Red_Voznje("Sarajevo","Zenica","4:40",""),
                     new Red_Voznje("Sarajevo","Zenica","7:40",""),
                     new Red_Voznje("Sarajevo","Zenica","10:40",""),
                     new Red_Voznje("Sarajevo","Zenica","15:40",""),
                     new Red_Voznje("Sarajevo","Banja Luka","12:15",""),
+                    new Red_Voznje("Sarajevo","Mostar","2:15",""),
+
+                    new Red_Voznje("Zenica","Gorazde","11:45","6:43"),
+                    new Red_Voznje("Bihac","Mostar","1:32","5:33"),
+                    new Red_Voznje("Tuzla","Zenica","4:40",""),
+                    new Red_Voznje("Sarajevo","Zenica","7:40",""),
+                    new Red_Voznje("Sarajevo","Gorazde","10:40",""),
+                    new Red_Voznje("Sarajevo","Zenica","15:40",""),
+                    new Red_Voznje("Sarajevo","Banja Luka","12:15",""),
+                    new Red_Voznje("Sarajevo","Mostar","2:15",""),
+                    new Red_Voznje("Zenica","Sarajevo","11:45","6:43"),
+                    new Red_Voznje("Bihac","Sarajevo","8:32","15:33"),
+                    new Red_Voznje("Sarajevo","Zenica","4:40",""),
+                
                 };
                 return _red;
             }

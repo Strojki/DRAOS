@@ -66,7 +66,7 @@
             // button6
             // 
             resources.ApplyResources(this.button6, "button6");
-            this.button6.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button6.BackColor = System.Drawing.Color.SeaGreen;
             this.button6.Name = "button6";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -113,6 +113,7 @@
             this.button10.BackgroundImage = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.bosnian;
             this.button10.Name = "button10";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
             // 
             // button9
             // 
