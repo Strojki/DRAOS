@@ -63,8 +63,24 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            sljedeci.ShowDialog();
+            if (comboBoxPolazakIz.SelectedItem == null)
+                MessageBox.Show("Niste unijeli mjesto polaska!", "Upozorenje",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBoxDolazak.SelectedItem == null)
+                MessageBox.Show("Niste unijeli destinaciju!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBox1.SelectedItem == null)
+                MessageBox.Show("Niste unijeli broj putnika!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBoxVrstaKarte.SelectedItem == null)
+                MessageBox.Show("Niste unijeli vrstu karte!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+            {
+                this.Hide();
+                sljedeci.ShowDialog();
+            }
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
