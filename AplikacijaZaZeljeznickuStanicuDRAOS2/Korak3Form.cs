@@ -56,10 +56,24 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Korak4Form f = new Korak4Form(ref karta, ref rm,ref culture);
-            this.Hide();
-            f.ShowDialog();
-            
+            if (comboBoxVrijemePolaska.SelectedItem == null)
+                MessageBox.Show("Niste unijeli vrijeme polaska!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBoxVrijemeDolaska.SelectedItem == null)
+                MessageBox.Show("Niste unijeli vrijeme dolaska!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBoxKlasa.SelectedItem == null)
+                MessageBox.Show("Niste unijeli klasu!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (comboBoxVrijemePolaska.SelectedItem == comboBoxVrijemeDolaska.SelectedItem)
+                MessageBox.Show("Vrijeme polaska i dolaska je isto!", "Upozorenje",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+            {
+                Korak4Form f = new Korak4Form(ref karta, ref rm, ref culture);
+                this.Hide();
+                f.ShowDialog();
+            }  
         }
 
         private void Korak3Form_Load(object sender, EventArgs e)
