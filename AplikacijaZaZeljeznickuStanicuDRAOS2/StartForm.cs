@@ -25,6 +25,13 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             culture = consts.Culture;
             groupBox1.Text = rm.GetString("TEST", culture);
             helpText = rm.GetString("helpSadrzajKorak1", culture);
+            button6.Text = rm.GetString("Kaufen Sie ein Ticket", culture);
+            button6.Text = rm.GetString("KupiKartu", culture);
+            button8.Text = rm.GetString("Korak1", culture);
+            button1.Text = rm.GetString("Korak2", culture);
+            button2.Text = rm.GetString("Korak3", culture);
+            button7.Text = rm.GetString("Korak4", culture);
+
         }
 
         public StartForm()

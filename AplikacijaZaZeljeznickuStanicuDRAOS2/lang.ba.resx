@@ -121,7 +121,7 @@
     <value>Na formi korak 1 mozete vidjeti redove voznje</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>?test Prikaz dolazaka i odlazaka u naredna 2h</value>
+    <value>Prikaz dolazaka i odlazaka u naredna 2h</value>
   </data>
   <data name="BrojPutnika" xml:space="preserve">
     <value>Broj putnika</value>
@@ -179,5 +179,26 @@
   </data>
   <data name="VrstaKarte" xml:space="preserve">
     <value>Vrsta Karte</value>
+  </data>
+  <data name="DatumPolaska" xml:space="preserve">
+    <value>Datum Polaska</value>
+  </data>
+  <data name="Korak1" xml:space="preserve">
+    <value>Korak 1</value>
+  </data>
+  <data name="Korak2" xml:space="preserve">
+    <value>Korak 2</value>
+  </data>
+  <data name="Korak3" xml:space="preserve">
+    <value>Korak 3</value>
+  </data>
+  <data name="Korak4" xml:space="preserve">
+    <value>Korak 4</value>
+  </data>
+  <data name="Pojedinacna" xml:space="preserve">
+    <value>Pojedinacna</value>
+  </data>
+  <data name="Porodicna" xml:space="preserve">
+    <value>Porodicna</value>
   </data>
 </root>

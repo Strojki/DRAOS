@@ -165,11 +165,11 @@
   <data name="Ponisti" xml:space="preserve">
     <value>Stornieren</value>
   </data>
-  <data name="TEST" xml:space="preserve">
+  <data name="TEST2" xml:space="preserve">
     <value>?test DE</value>
   </data>
-  <data name="TEST1" xml:space="preserve">
-    <value>?test Nur Ankünfte und Abflüge in der nächsten 2 Stunden</value>
+  <data name="TEST" xml:space="preserve">
+    <value> Nur Ankünfte und Abflüge in der nächsten 2 Stunden</value>
   </data>
   <data name="Turski" xml:space="preserve">
     <value>Türkisch</value>
@@ -182,5 +182,29 @@
   </data>
   <data name="VrstaKarte" xml:space="preserve">
     <value>Typ Karten</value>
+  </data>
+  <data name="DatumPolaska" xml:space="preserve">
+    <value>Datum der Abreise</value>
+  </data>
+  <data name="Korak1" xml:space="preserve">
+    <value>Schritt 1</value>
+  </data>
+  <data name="Korak2" xml:space="preserve">
+    <value>Schritt 2</value>
+  </data>
+  <data name="Korak3" xml:space="preserve">
+    <value>Schritt 3</value>
+  </data>
+  <data name="Korak4" xml:space="preserve">
+    <value>Schritt 4</value>
+  </data>
+  <data name="Pojedinacna" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="Porodicna" xml:space="preserve">
+    <value>Familie</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
   </data>
 </root>

@@ -166,7 +166,7 @@
     <value>iptal</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>?test turski</value>
+    <value>Sonraki 2 saat içinde sadece gelenler ve gidenler</value>
   </data>
   <data name="Turski" xml:space="preserve">
     <value>Türk</value>
@@ -179,5 +179,26 @@
   </data>
   <data name="VrstaKarte" xml:space="preserve">
     <value>Tür Haritalar</value>
+  </data>
+  <data name="DatumPolaska" xml:space="preserve">
+    <value>Çıkış tarihi</value>
+  </data>
+  <data name="Korak1" xml:space="preserve">
+    <value>Aşama 1</value>
+  </data>
+  <data name="Korak2" xml:space="preserve">
+    <value>Adım 2</value>
+  </data>
+  <data name="Korak3" xml:space="preserve">
+    <value>Aşama 3</value>
+  </data>
+  <data name="Korak4" xml:space="preserve">
+    <value>4. adım</value>
+  </data>
+  <data name="Pojedinacna" xml:space="preserve">
+    <value>Tek</value>
+  </data>
+  <data name="Porodicna" xml:space="preserve">
+    <value>Aile</value>
   </data>
 </root>

@@ -70,6 +70,15 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Date od departure.
+        /// </summary>
+        public static string DatumPolaska {
+            get {
+                return ResourceManager.GetString("DatumPolaska", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Arrival.
         /// </summary>
         public static string Dolazak {
@@ -160,6 +169,42 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Step 1.
+        /// </summary>
+        public static string Korak1 {
+            get {
+                return ResourceManager.GetString("Korak1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 2.
+        /// </summary>
+        public static string Korak2 {
+            get {
+                return ResourceManager.GetString("Korak2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 3.
+        /// </summary>
+        public static string Korak3 {
+            get {
+                return ResourceManager.GetString("Korak3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 4.
+        /// </summary>
+        public static string Korak4 {
+            get {
+                return ResourceManager.GetString("Korak4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Buy a ticket.
         /// </summary>
         public static string KupiKartu {
@@ -187,6 +232,15 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to One person.
+        /// </summary>
+        public static string Pojedinacna {
+            get {
+                return ResourceManager.GetString("Pojedinacna", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Departing from.
         /// </summary>
         public static string PolazakIz {
@@ -205,7 +259,25 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ?testdefault.
+        ///   Looks up a localized string similar to Family.
+        /// </summary>
+        public static string Porodicna {
+            get {
+                return ResourceManager.GetString("Porodicna", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arrivals and departures in the next 2 hours.
         /// </summary>
         public static string TEST {
             get {

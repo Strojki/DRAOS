@@ -39,6 +39,12 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             helpText = rm.GetString("helpSadrzajKorak4", culture);
             //button1.Text = "Plati kartu";
             //throw new NotImplementedException();
+            button4.Text = rm.GetString("Korak1", culture);
+            button5.Text = rm.GetString("Korak2", culture);
+            button6.Text = rm.GetString("Korak3", culture);
+            button7.Text = rm.GetString("Korak4", culture);
+            button1.Text = rm.GetString("Naprijed", culture);
+            button2.Text = rm.GetString("Ponisti", culture);
         }
 
         private void bindings()
