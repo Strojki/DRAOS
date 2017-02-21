@@ -90,25 +90,28 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 202);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(42, 250);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.Size = new System.Drawing.Size(49, 18);
             this.label4.TabIndex = 14;
             this.label4.Text = "Klasa:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 158);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(42, 189);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 13);
+            this.label3.Size = new System.Drawing.Size(117, 18);
             this.label3.TabIndex = 13;
             this.label3.Text = "Vrijeme dolaska:";
             // 
             // comboBoxVrijemeDolaska
             // 
+            this.comboBoxVrijemeDolaska.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBoxVrijemeDolaska.FormattingEnabled = true;
             this.comboBoxVrijemeDolaska.Items.AddRange(new object[] {
             "4:30",
@@ -123,27 +126,29 @@
             "16:55",
             "18:30",
             "20:20"});
-            this.comboBoxVrijemeDolaska.Location = new System.Drawing.Point(42, 175);
+            this.comboBoxVrijemeDolaska.Location = new System.Drawing.Point(42, 208);
             this.comboBoxVrijemeDolaska.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxVrijemeDolaska.Name = "comboBoxVrijemeDolaska";
-            this.comboBoxVrijemeDolaska.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxVrijemeDolaska.Size = new System.Drawing.Size(474, 30);
             this.comboBoxVrijemeDolaska.TabIndex = 12;
             // 
             // comboBoxKlasa
             // 
+            this.comboBoxKlasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBoxKlasa.FormattingEnabled = true;
             this.comboBoxKlasa.Items.AddRange(new object[] {
             "1",
             "2",
             "3"});
-            this.comboBoxKlasa.Location = new System.Drawing.Point(42, 218);
+            this.comboBoxKlasa.Location = new System.Drawing.Point(42, 268);
             this.comboBoxKlasa.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxKlasa.Name = "comboBoxKlasa";
-            this.comboBoxKlasa.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxKlasa.Size = new System.Drawing.Size(474, 30);
             this.comboBoxKlasa.TabIndex = 11;
             // 
             // comboBoxVrijemePolaska
             // 
+            this.comboBoxVrijemePolaska.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBoxVrijemePolaska.FormattingEnabled = true;
             this.comboBoxVrijemePolaska.Items.AddRange(new object[] {
             "4:30",
@@ -158,44 +163,47 @@
             "16:55",
             "18:30",
             "20:20"});
-            this.comboBoxVrijemePolaska.Location = new System.Drawing.Point(42, 136);
+            this.comboBoxVrijemePolaska.Location = new System.Drawing.Point(42, 150);
             this.comboBoxVrijemePolaska.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxVrijemePolaska.Name = "comboBoxVrijemePolaska";
-            this.comboBoxVrijemePolaska.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxVrijemePolaska.Size = new System.Drawing.Size(474, 30);
             this.comboBoxVrijemePolaska.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 119);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(40, 133);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
+            this.label2.Size = new System.Drawing.Size(117, 18);
             this.label2.TabIndex = 9;
             this.label2.Text = "Vrijeme polaska:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 72);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(42, 71);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.Size = new System.Drawing.Size(112, 18);
             this.label1.TabIndex = 8;
             this.label1.Text = "Datum polaska:";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(42, 91);
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(42, 90);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(474, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(474, 27);
             this.dateTimePicker1.TabIndex = 7;
             // 
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(848, 576);
+            this.button2.Location = new System.Drawing.Point(785, 576);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 54);
@@ -208,10 +216,11 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(950, 576);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(894, 576);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 54);
+            this.button1.Size = new System.Drawing.Size(160, 54);
             this.button1.TabIndex = 15;
             this.button1.Text = "Naprijed";
             this.button1.UseVisualStyleBackColor = false;

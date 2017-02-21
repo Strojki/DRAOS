@@ -65,9 +65,9 @@
             this.groupBox1.Controls.Add(this.comboBoxDolazak);
             this.groupBox1.Controls.Add(this.comboBoxPolazakIz);
             this.groupBox1.Location = new System.Drawing.Point(11, 105);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(1037, 410);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -77,7 +77,7 @@
             // 
             this.pictureBox1.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.railwayStationLogo;
             this.pictureBox1.Location = new System.Drawing.Point(665, 60);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(256, 256);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -86,6 +86,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "1",
@@ -93,86 +94,94 @@
             "3",
             "4",
             "5"});
-            this.comboBox1.Location = new System.Drawing.Point(43, 187);
+            this.comboBox1.Location = new System.Drawing.Point(43, 219);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(474, 21);
+            this.comboBox1.Size = new System.Drawing.Size(474, 30);
             this.comboBox1.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 208);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(40, 258);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
+            this.label5.Size = new System.Drawing.Size(83, 18);
             this.label5.TabIndex = 10;
             this.label5.Text = "Vrsta karte:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 170);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(40, 200);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(90, 18);
             this.label4.TabIndex = 9;
             this.label4.Text = "Broj putnika:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 131);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(40, 146);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(67, 18);
             this.label3.TabIndex = 8;
             this.label3.Text = "Dolazak:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(40, 91);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.Size = new System.Drawing.Size(81, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "Polazak Iz:";
             // 
             // comboBoxVrstaKarte
             // 
+            this.comboBoxVrstaKarte.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBoxVrstaKarte.FormattingEnabled = true;
-            this.comboBoxVrstaKarte.Location = new System.Drawing.Point(43, 224);
-            this.comboBoxVrstaKarte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxVrstaKarte.Location = new System.Drawing.Point(43, 276);
+            this.comboBoxVrstaKarte.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxVrstaKarte.Name = "comboBoxVrstaKarte";
-            this.comboBoxVrstaKarte.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxVrstaKarte.Size = new System.Drawing.Size(474, 30);
             this.comboBoxVrstaKarte.TabIndex = 4;
             // 
             // comboBoxDolazak
             // 
+            this.comboBoxDolazak.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBoxDolazak.FormattingEnabled = true;
-            this.comboBoxDolazak.Location = new System.Drawing.Point(43, 147);
-            this.comboBoxDolazak.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxDolazak.Location = new System.Drawing.Point(43, 164);
+            this.comboBoxDolazak.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxDolazak.Name = "comboBoxDolazak";
-            this.comboBoxDolazak.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxDolazak.Size = new System.Drawing.Size(474, 30);
             this.comboBoxDolazak.TabIndex = 2;
             // 
             // comboBoxPolazakIz
             // 
+            this.comboBoxPolazakIz.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.comboBoxPolazakIz.FormattingEnabled = true;
-            this.comboBoxPolazakIz.Location = new System.Drawing.Point(43, 107);
-            this.comboBoxPolazakIz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxPolazakIz.Location = new System.Drawing.Point(43, 109);
+            this.comboBoxPolazakIz.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxPolazakIz.Name = "comboBoxPolazakIz";
-            this.comboBoxPolazakIz.Size = new System.Drawing.Size(474, 21);
+            this.comboBoxPolazakIz.Size = new System.Drawing.Size(474, 30);
             this.comboBoxPolazakIz.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(950, 576);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(894, 576);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 54);
+            this.button1.Size = new System.Drawing.Size(160, 54);
             this.button1.TabIndex = 2;
             this.button1.Text = "Naprijed";
             this.button1.UseVisualStyleBackColor = false;
@@ -181,8 +190,8 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(848, 576);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(785, 576);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 54);
             this.button2.TabIndex = 3;
@@ -194,7 +203,7 @@
             // 
             this.button3.Image = global::AplikacijaZaZeljeznickuStanicuDRAOS2.Properties.Resources.helpBtn3;
             this.button3.Location = new System.Drawing.Point(11, 11);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 50);
             this.button3.TabIndex = 4;
@@ -205,7 +214,7 @@
             // 
             this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(131, 11);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(93, 41);
             this.button4.TabIndex = 5;
@@ -217,7 +226,7 @@
             this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Location = new System.Drawing.Point(222, 11);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(93, 41);
             this.button5.TabIndex = 6;
@@ -228,7 +237,7 @@
             // 
             this.button6.Enabled = false;
             this.button6.Location = new System.Drawing.Point(315, 11);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(93, 41);
             this.button6.TabIndex = 7;
@@ -239,7 +248,7 @@
             // 
             this.button7.Enabled = false;
             this.button7.Location = new System.Drawing.Point(406, 11);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(93, 41);
             this.button7.TabIndex = 8;
@@ -278,8 +287,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Korak2Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
