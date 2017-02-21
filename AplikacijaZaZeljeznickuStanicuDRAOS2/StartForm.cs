@@ -115,5 +115,10 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
         {
             adjustCulture();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            setLang("ba");
+        }
     }
 }
