@@ -33,7 +33,7 @@ namespace AplikacijaZaZeljeznickuStanicuDRAOS2
             groupBox1.Text = rm.GetString("groupUnosPodataka", culture);
             label2.Text = rm.GetString("VrijemePolaska", culture);
             label3.Text = rm.GetString("VrijemeDolaska", culture);
-            label4.Text = rm.GetString("Klasa", culture);
+            label4.Text = rm.GetString("BrojPutnika", culture);
             label5.Text = rm.GetString("VrstaKarte", culture);
             button1.Text = rm.GetString("Naprijed", culture);
             button2.Text = rm.GetString("Ponisti", culture);
